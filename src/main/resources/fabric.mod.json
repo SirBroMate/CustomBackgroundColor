@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "cbc",
+  "version": "${version}",
+  "name": "Custom Background Color",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/cbc/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+      "ru.sirbromate.cbc.Main"
+    ],
+    "modmenu": [
+      "ru.sirbromate.cbc.config.CBCModMenu"
+    ]
+  },
+  "mixins": [
+    "cbc.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}

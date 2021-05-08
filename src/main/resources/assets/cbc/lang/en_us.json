@@ -1,0 +1,13 @@
+{
+  "text.autoconfig.cbc.title": "Background Color config",
+  "text.autoconfig.cbc.category.firstColor": "First Color",
+  "text.autoconfig.cbc.option.FRed": "Red",
+  "text.autoconfig.cbc.option.FGreen": "Green",
+  "text.autoconfig.cbc.option.FBlue": "Blue",
+  "text.autoconfig.cbc.option.FAlpha": "Alpha",
+  "text.autoconfig.cbc.category.secondColor": "Second Color",
+  "text.autoconfig.cbc.option.SRed": "Red",
+  "text.autoconfig.cbc.option.SGreen": "Green",
+  "text.autoconfig.cbc.option.SBlue": "Blue",
+  "text.autoconfig.cbc.option.SAlpha": "Alpha"
+}

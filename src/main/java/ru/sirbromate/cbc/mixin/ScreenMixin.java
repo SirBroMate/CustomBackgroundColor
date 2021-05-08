@@ -10,13 +10,13 @@ import ru.sirbromate.cbc.Main;
 public class ScreenMixin {
 
     @ModifyConstant(method = "renderBackground(Lnet/minecraft/client/util/math/MatrixStack;I)V", constant = @Constant(intValue = -1072689136))
-    private int firstBackgroundColor(int c) {
-        return toInt(Main.CONFIG.FRed, Main.CONFIG.FGreen, Main.CONFIG.FBlue, Main.CONFIG.FAlpha);
+    private int startColor(int c) {
+        return toInt(Main.CONFIG.sRed, Main.CONFIG.sGreen, Main.CONFIG.sBlue, Main.CONFIG.sAlpha);
     }
 
     @ModifyConstant(method = "renderBackground(Lnet/minecraft/client/util/math/MatrixStack;I)V", constant = @Constant(intValue = -804253680))
-    private int secondBackgroundColor(int c) {
-        return toInt(Main.CONFIG.SRed, Main.CONFIG.SGreen, Main.CONFIG.SBlue, Main.CONFIG.SAlpha);
+    private int endColor(int c) {
+        return toInt(Main.CONFIG.eRed, Main.CONFIG.eGreen, Main.CONFIG.eBlue, Main.CONFIG.eAlpha);
     }
 
     int toInt(int r, int g, int b, int a) {
@@ -27,5 +27,4 @@ public class ScreenMixin {
 
         return A | R | G | B;
     }
-
 }

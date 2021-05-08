@@ -1,13 +1,13 @@
 {
   "text.autoconfig.cbc.title": "Background Color config",
-  "text.autoconfig.cbc.category.firstColor": "First Color",
-  "text.autoconfig.cbc.option.FRed": "Red",
-  "text.autoconfig.cbc.option.FGreen": "Green",
-  "text.autoconfig.cbc.option.FBlue": "Blue",
-  "text.autoconfig.cbc.option.FAlpha": "Alpha",
-  "text.autoconfig.cbc.category.secondColor": "Second Color",
-  "text.autoconfig.cbc.option.SRed": "Red",
-  "text.autoconfig.cbc.option.SGreen": "Green",
-  "text.autoconfig.cbc.option.SBlue": "Blue",
-  "text.autoconfig.cbc.option.SAlpha": "Alpha"
+  "text.autoconfig.cbc.category.startColor": "Start Color",
+  "text.autoconfig.cbc.option.sRed": "Red",
+  "text.autoconfig.cbc.option.sGreen": "Green",
+  "text.autoconfig.cbc.option.sBlue": "Blue",
+  "text.autoconfig.cbc.option.sAlpha": "Alpha",
+  "text.autoconfig.cbc.category.endColor": "End Color",
+  "text.autoconfig.cbc.option.eRed": "Red",
+  "text.autoconfig.cbc.option.eGreen": "Green",
+  "text.autoconfig.cbc.option.eBlue": "Blue",
+  "text.autoconfig.cbc.option.eAlpha": "Alpha"
 }

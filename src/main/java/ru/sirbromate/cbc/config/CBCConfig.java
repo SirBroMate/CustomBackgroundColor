@@ -8,36 +8,37 @@ import ru.sirbromate.cbc.Main;
 @Config(name = Main.MODID)
 @Config.Gui.Background("minecraft:textures/block/oak_planks.png")
 public class CBCConfig implements ConfigData {
-    @ConfigEntry.Category(value = "firstColor")
-    @ConfigEntry.BoundedDiscrete(max = 255)
-    public int FRed = 16;
 
-    @ConfigEntry.Category(value = "firstColor")
+    @ConfigEntry.Category(value = "startColor")
     @ConfigEntry.BoundedDiscrete(max = 255)
-    public int FGreen = 16;
+    public int sRed = 16;
 
-    @ConfigEntry.Category(value = "firstColor")
+    @ConfigEntry.Category(value = "startColor")
     @ConfigEntry.BoundedDiscrete(max = 255)
-    public int FBlue = 16;
+    public int sGreen = 16;
 
-    @ConfigEntry.Category(value = "firstColor")
+    @ConfigEntry.Category(value = "startColor")
     @ConfigEntry.BoundedDiscrete(max = 255)
-    public int FAlpha = 192;
+    public int sBlue = 16;
 
-
-    @ConfigEntry.Category(value = "secondColor")
+    @ConfigEntry.Category(value = "startColor")
     @ConfigEntry.BoundedDiscrete(max = 255)
-    public int SRed = 16;
+    public int sAlpha = 192;
 
-    @ConfigEntry.Category(value = "secondColor")
-    @ConfigEntry.BoundedDiscrete(max = 255)
-    public int SGreen = 16;
 
-    @ConfigEntry.Category(value = "secondColor")
+    @ConfigEntry.Category(value = "endColor")
     @ConfigEntry.BoundedDiscrete(max = 255)
-    public int SBlue = 16;
+    public int eRed = 16;
 
-    @ConfigEntry.Category(value = "secondColor")
+    @ConfigEntry.Category(value = "endColor")
     @ConfigEntry.BoundedDiscrete(max = 255)
-    public int SAlpha = 208;
+    public int eGreen = 16;
+
+    @ConfigEntry.Category(value = "endColor")
+    @ConfigEntry.BoundedDiscrete(max = 255)
+    public int eBlue = 16;
+
+    @ConfigEntry.Category(value = "endColor")
+    @ConfigEntry.BoundedDiscrete(max = 255)
+    public int eAlpha = 208;
 }

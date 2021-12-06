@@ -6,7 +6,7 @@ import me.shedaniel.autoconfig.annotation.ConfigEntry;
 import ru.sirbromate.cbc.Main;
 
 @Config(name = Main.MODID)
-@Config.Gui.Background("minecraft:textures/block/oak_planks.png")
+@Config.Gui.Background("minecraft:textures/block/white_concrete.png")
 public class CBCConfig implements ConfigData {
 
     @ConfigEntry.Category(value = "startColor")
@@ -24,7 +24,6 @@ public class CBCConfig implements ConfigData {
     @ConfigEntry.Category(value = "startColor")
     @ConfigEntry.BoundedDiscrete(max = 255)
     public int sAlpha = 192;
-
 
     @ConfigEntry.Category(value = "endColor")
     @ConfigEntry.BoundedDiscrete(max = 255)
